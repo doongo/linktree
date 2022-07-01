@@ -4,6 +4,7 @@
     --bgColor: #525252;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
+        --accentColor2: #FFF;
     --font: 'Karla', sans-serif;
     --delay: .3s;
 }
@@ -48,14 +49,14 @@ body {
 #links {
     max-width: 675px;
     width: auto;
-    background-color: #525252;
+    background-color: var(--accentColor2);
     display: block;
     margin: 27px auto;
 }
 
 .link {
     position: relative;
-    background-color: #525252;
+    background-color: var(--accentColor2);
     color: var(--accentColor);
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
