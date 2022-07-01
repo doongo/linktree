@@ -48,6 +48,7 @@ body {
 #links {
     max-width: 675px;
     width: auto;
+    background-color: #525252;
     display: block;
     margin: 27px auto;
 }
